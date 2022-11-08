@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main/css/style.css">
+    <link rel="icon" href="main/img/favicon-32x32.png">
+    <title>Invest App</title>
+</head>
+<body>
+
+  <div class="account">
+    <div class="content">
+      <div class="menu">
+        <a class="menu__acc" href="createAccount/personalAccount.php">Мой кабинет</a>
+        <a class="menu__regis" href="createAccount/registration.php">Регистрация</a>
+        <a class="menu__autho" href="createAccount/autorizastion.php">Авторизация</a>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .account{
+      position: fixed;
+      left: 50%;
+      top: 7%;
+      width: 520px;
+      transform: translate(-50%, -50%);
+      background: #8781c5;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .menu{
+      margin: 5px;
+      text-align: center;
+    }
+
+    .menu a{
+      color: #fff;
+      text-decoration: none;
+      font-size: 14px;
+    }
+  </style>
+    
+    <div class="app">
+      <div class="content">
+        <div class="info-stock">
+          <div class="error-block">
+          
+            <div class="search-block">
+              <input type="text" class="stock-input">
+              <button class="stock-search">Искать</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://kit.fontawesome.com/5e7d10999a.js" crossorigin="anonymous"></script>
+    <script src="main/js/script.js"></script>
+</body>
+</html>
